@@ -1,0 +1,76 @@
+/* 主要内容开始 */
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+/* 主要内容结束 */
+/* 新闻内容开始 */
+.content{
+	float: right;
+	width: 812px;
+	margin:62px 67px 0 0;
+}
+/* 标题 */
+.content .title h2{
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+/* 新闻列表 */
+.news_list{
+	margin-bottom: 90px;
+}
+.news_list ul>li{
+	width: 812px;
+	height: 198px;
+	margin-bottom: 45px;
+}
+/* 左侧图片 */
+.news_list .img{
+	float: left;
+}
+.news_list .img img{
+	width: 264px;
+	height: 198px;
+}
+/* 右侧文本 */
+.news_list .text{
+	width: 502px;
+	height: 198px;
+	float: right;
+}
+.news_list .text h3{
+	float: left;
+	font-size: 18px;
+	line-height: 18px;
+	margin-bottom: 17px;
+}
+.news_list li:hover .text h3,.news_list li:hover .text p{
+	text-decoration: underline;
+}
+.news_list .text h3 a,.news_list .text p a{
+	color: #000000;
+}
+.news_list .text .time{
+	float: right;
+	font-size: 12px;
+	line-height: 12px;
+	color: #000;
+}
+.news_list .text p{
+	clear: both;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+/* 查看更多 */
+.query_more{
+	font-size: 12px;
+	line-height: 12px;
+	color: #000000;
+	float: right;
+}
+/* 新闻内容结束 */

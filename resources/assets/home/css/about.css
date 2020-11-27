@@ -1,0 +1,30 @@
+/* 内容 */
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 67px;
+}
+
+/* 文章 */
+.article{
+	float: right;
+	width: 813px;
+	margin:62px 66px 0 0;
+}
+.article h2{
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
+}
+.article img{
+	width: 668px;
+	height: 395px;
+	margin: 40px 0 43px 72px;
+}
+.article p{
+	font-size: 14px;
+	line-height: 24px;
+	text-indent: 2em;
+	margin-bottom: 26px;
+	text-align: justify;
+}

@@ -1,0 +1,47 @@
+/* 主要内容开始 */
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 84px;
+}
+/* 主要内容结束 */
+/* 产品列表开始 */
+.pro_list{
+	width: 893px;
+	margin: 62px 0 0 0;
+	float: right;
+}
+/* 标题 */
+.pro_list .title h2{
+	font-size:18px;
+	line-height: 18px;
+	text-align: center;
+	margin-bottom: 42px;
+}
+/* 列表 */
+.pro_list>ul{
+	margin-bottom: 34px;
+}
+.pro_list>ul li{
+	width: 261px;
+	float: left;
+	text-align: center;
+	margin:0 25px 25px 0;
+	font-size:14px ;
+	line-height: 14px;
+}
+.pro_list>ul li a{
+	color: #000000;
+}
+.pro_list>ul li img{
+	width: 261px;
+	height: 214px;
+	margin-bottom: 13px;
+}
+.pro_list>ul li:hover img{
+	outline: 2px solid #9c3;
+}
+.pro_list>ul li:hover a{
+	color: #9c3;
+}
+/* 产品列表结束 */

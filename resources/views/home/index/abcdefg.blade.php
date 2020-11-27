@@ -1,0 +1,1 @@
+abcdefg.blade.php

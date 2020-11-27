@@ -1,0 +1,32 @@
+/* 内容 */
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+/* 文章 */
+.article{
+	float: right;
+	width: 614px;
+	margin:62px 167px 0 0;
+}
+.article h2{
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
+}
+.article img{
+	width: 614px;
+	height: 303px;
+	margin: 40px 0 33px 0;
+}
+.article p{
+	font-size: 14px;
+	line-height: 24px;
+	text-align: justify;
+}
+/* 翻页 */
+.article .flip{
+	margin-top: 24px;
+}

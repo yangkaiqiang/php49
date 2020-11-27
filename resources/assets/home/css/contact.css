@@ -1,0 +1,101 @@
+/* 内容 */
+.main{
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 97px;
+}
+/* 面包屑导航*/
+.main .breadcrumbs ul{
+	width: 190px;
+	margin-left: 1010px;
+}
+/* 地址栏内容 */
+.content{
+	float: right;
+	width: 811px;
+	margin:62px 68px 0 0;
+}
+/* 标题 */
+.content .title h2{
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
+}
+/* 地图 */
+.content #map{
+	width: 811px;
+	height: 303px;
+	margin: 40px 0 55px;
+}
+/* 地址 */
+.content .address{
+	width: 423px;
+	float: left;
+}
+.content .address p{
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 18px;
+}
+/* 信息 */
+.content .message{
+	width: 319px;
+	float: right;
+	font-size: 14px;
+	line-height: 14px;
+}
+.content .message label{
+	display: block;
+	margin-bottom: 12px;
+}
+.content .message [name="name"],.content .message [name="phone"],.content .message [name="email"]{
+	width: 246px;
+	height: 26px;
+	line-height: 26px;
+	border:1px solid #ccc;
+	padding:0 5px;
+}
+.content .message textarea{
+	vertical-align: top;
+	resize: none;
+	width: 246px;
+	height: 80px;
+	line-height:18px ;
+	border: 1px solid #ccc;
+	padding:5px 5px;
+	overflow: hidden;
+}
+.content .message .code{
+	width: 319px;
+	height: 28px;
+}
+.content .message .code span{
+	display: block;
+	width: 56px;
+	height: 28px;
+	float: left;
+	line-height: 28px;
+	text-align: center;
+}
+.content .message .code [name="code"]{
+	width: 69px;
+	height: 26px;
+	line-height: 69px;
+	border:1px solid #ccc;
+	padding:0 5px;
+	float: left;
+}
+.content .message .code img{
+	width: 81px;
+	height: 28px;
+	margin: 0px 7px 0 7px;
+	cursor: pointer;
+	float: left;
+}
+.content .message .code [type="submit"]{
+	width: 81px;
+	height: 28px;
+	background-color: #9c3;
+	cursor: pointer;
+	float: left;
+}
